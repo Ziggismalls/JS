@@ -1,7 +1,8 @@
-const navbar = document.querySelector(".navbar");
+const menuBg = document.querySelector(".menuBg");
 
-const open = document.querySelector(".open");
+const navMenu = document.querySelector(".navMenu");
 
-open.addEventListener("click", () => {
-  open.classList.toggle("openB");
+menuBg.addEventListener("click", () => {
+  menuBg.classList.toggle("active");
+  navMenu.classList.toggle("active");
 });
