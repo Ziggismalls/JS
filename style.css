@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  background-color: black;
+}
+.navba {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.openB {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 10px;
+  background-color: black;
+}
+a {
+  color: white;
+}
+a,
+img {
+  height: 60px;
+}
